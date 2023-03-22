@@ -89,7 +89,7 @@ const SourceMapTool = () => {
     <React.Fragment>
       <Heading as="h2" size="lg">Source-Map 工具</Heading>
       <Text>
-        选择线上代码出问题的js文件对应的SourceMap文件后，输入<Code>行:列</Code>之后，点击“确定”按钮
+        选择出问题的js文件对应的SourceMap文件，输入<Code>行:列</Code>之后，点击“确定”按钮
       </Text>
       <Box mt={4}>
         <FormControl>

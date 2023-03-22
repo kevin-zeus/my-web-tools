@@ -12,10 +12,10 @@ const Home = () => {
 
   return (
     <Box>
-      <Card maxW="sm">
+      <Card maxW="300px">
         <CardBody>
           <Image src="https://eladnava.com/content/images/2015/11/js-6.jpg" />
-          <Heading onClick={() => handleNavigate('/sourcemap')} size="md" mt={6} transition="ease-in-out" cursor="pointer" _hover={{ color: 'blue.700' }}>SourceMap工具</Heading>
+          <Heading onClick={() => handleNavigate('/sourcemap')} size="md" mt={6} transition="all 0.3s ease-in-out" cursor="pointer" _hover={{ color: 'green.600' }}>SourceMap工具</Heading>
         </CardBody>
       </Card>
     </Box>
